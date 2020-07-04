@@ -1,0 +1,7 @@
+nav {
+  grid-area: 1 / span 3;
+}
+
+nav img {
+  height: 50px;
+}
