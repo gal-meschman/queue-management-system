@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import moment from "moment";
 import { addQueue } from "../../store/actions";
-import "./reception.css";
+import "./Reception.css";
 
 export default () => {
   const queues = useSelector((state) => state);
@@ -19,11 +19,6 @@ export default () => {
   const handleAdd = () => {
     if (queue.name === "") alert("Missing name");
     else {
-      setQueue({
-        number: queue.number,
-        name: queue.name,
-      });
-
       dispatch(
         addQueue({
           ...queue,

@@ -1,5 +1,5 @@
 import React from "react";
-import AddData from "./addData";
+import AddData from "./AddData";
 
 export default () => {
   return (

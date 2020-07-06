@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { removeQueue } from "../../store/actions";
-import "./service.css";
+import "./Service.css";
 
 export default () => {
   const queues = useSelector((state) => state);

@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "./clalit-logo.png";
-import "./nav.css";
+import "./Nav.css";
 
 export default () => {
   return (

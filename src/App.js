@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Nav from "./components/Nav/nav";
-import Home from "./components/Home/home";
-import Reception from "./components/Reception/reception";
-import Service from "./components/Service/service";
+import Nav from "./components/nav/Nav";
+import Home from "./components/home/Home";
+import Reception from "./components/reception/Reception";
+import Service from "./components/service/Service";
 import "./App.css";
 
 export default () => {

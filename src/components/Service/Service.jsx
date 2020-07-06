@@ -1,6 +1,6 @@
 import React from "react";
-import Table from "./table";
-import RemoveData from "./removeData";
+import Table from "./Table";
+import RemoveData from "./RemoveData";
 
 export default () => {
   return (
